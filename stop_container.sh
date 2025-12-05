@@ -1,5 +1,11 @@
 #!/bin/bash
 set -e
 
-# Stop the running container (if any)
-echo "Hi"
+containers=$(docker ps -q)
+
+if [ -n "$containers" ]; then
+    docker rm -f $containers
+    echo "All running containers removed."
+else
+    echo "No running containers."
+fi
