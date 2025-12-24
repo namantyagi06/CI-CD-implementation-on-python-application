@@ -1,4 +1,4 @@
-🚀 AWS Continuous Integration Demo
+🚀 AWS Continuous Integration and Continuous Deployment Demo
 
 This project demonstrates how to set up Continuous Integration (CI) for a simple Python application using AWS CodePipeline and AWS CodeBuild, with GitHub as the source repository.
 
